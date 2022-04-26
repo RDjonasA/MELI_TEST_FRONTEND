@@ -1,0 +1,29 @@
+.product-container-box {
+  background-color: white;
+}
+
+.page-product {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: max-content 3fr 1fr;
+      grid-template-columns: -webkit-max-content 3fr 1fr;
+      grid-template-columns: max-content 3fr 1fr;
+}
+
+.product-img img {
+  border-radius: 4px;
+  margin: 16px;
+  height: 180px;
+  width: 180px;
+}
+
+.product-location {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: end;
+  padding-top: 20%;
+  inline-size: -webkit-max-content;
+  inline-size: -moz-max-content;
+  inline-size: max-content;
+}
+/*# sourceMappingURL=product.css.map */

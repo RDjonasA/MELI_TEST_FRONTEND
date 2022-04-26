@@ -1,0 +1,21 @@
+.product-container-box{
+    background-color: white;
+}
+
+.page-product{
+    display: grid;
+    grid-template-columns:  max-content 3fr 1fr
+}
+
+.product-img img{
+    border-radius: 4px;
+    margin: 16px;
+    height: 180px;
+    width: 180px;
+}
+
+.product-location{
+    align-items: end;
+    padding-top: 20%;
+    inline-size: max-content;
+}
