@@ -4,10 +4,10 @@
 
 ## Ejecutar proyecto
 
-### Client
+### Cliente
 
 ```
-cd client
+cd cliente
 ```
 ```
 npm install
@@ -16,7 +16,7 @@ npm install
 npm run start
 ```
 
-#### Pruebas Client
+#### Pruebas Cliente
 
  #### `npm test`
 
@@ -37,7 +37,7 @@ npm run start
 
 ## Tecnologías utilizadas
 
-### Client
+### Tecnologías utilizadas Cliente / FrontEnd
 #### React.js
 #### React router dom
 
@@ -45,20 +45,32 @@ npm run start
 
 ##### Para test se utilizo   testing-library/react 
 
+##Se utilizo los siguientes endpoints
+○ “/”
+○ Resultados de la búsqueda: “/items?search=”
+○ Detalle del producto:  “/items/:id”
+○ Detalle del producto: "/items/:id/description"
+
 #### Comentarios
 
 ```
+- Para la solución de con un ID se pueda ver un producto,
+utilice un ENDPOINT generado por backend con las categorias del producto para facil acceso.
 - Agregue mensajes de error en las pantallas, y un cargando.
-- Para recibir las imagenes una calidad mejor, agregue un llamado directo a la api de ML para el producto.
+- Para recibir las imagenes una calidad mejor,
+agregue un llamado directo a la api de ML para el producto.
 - Actualmente no es responsive mobile.
 ```
 
-### Server
+### Tecnologías para Server / BackEnd
 ##### Node.js 
 ##### Axios
 ##### Nodemon se utilizo en la rama dev para que se reinicie el servidor por cada cambio
 ##### Para test se utilizo supertest y mocha
 
+
+##Resultados de búsqueda, visualiza solo 4 productos
+Este limite se encuentra en el backend, pudiendo cambiar por un mayor límite de productos
 
 #### Comentarios
 
