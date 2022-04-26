@@ -45,11 +45,12 @@ npm run start
 
 ##### Para test se utilizo   testing-library/react 
 
-##Se utilizo los siguientes endpoints
-○ “/”
-○ Resultados de la búsqueda: “/items?search=”
-○ Detalle del producto:  “/items/:id”
-○ Detalle del producto: "/items/:id/description"
+## Se utilizo los siguientes endpoints y enlaces
+- Para home “/”
+- Resultados de la búsqueda: “/items?search=”
+- Detalle del producto:  “/items/:id”
+- Detalle del producto: "/items/:id/description"
+- Pagina no encontrada "*" cualquier otra dirección
 
 #### Comentarios
 
